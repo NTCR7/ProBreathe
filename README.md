@@ -260,7 +260,7 @@ Hier sind einige Beispiele, wie der Output angezeigt wird und wie die Epochen du
   <img src="images/II.10.png" width="350" alt="10">
 </details>
 
-Die besten Parameter stellten für unser Modell `epochs=10 `und `batch_size=32 `dar.
+Die besten Parameter stellten für unser Modell `epochs=20 `und `batch_size=32 `dar.
 
 ### Empirischer Versuch Änderung Data-Augmentation
 Für unser fertiges Modell werden bei der künstlichen Erzeugung neuer Daten während der Datenvorbereitung Änderungen an der `zoom_range, with_shift_range, height_shift_range, horizontal_flip` vorgenommen. Allerdings lässt sich auch das Bild zufällig um 30 Grad drehen, wobei sich die Frage stellt, wie nötig solche spezifischen Verfahren tatsächlich sind. Um dies zu überprüfen, wurden die Bilder versuchsweise um 10° und 30° gedreht. Dafür wurde wegen des Zeitaufwandes, das Modell lediglich mit 2 Epochen und der batch_size=50 trainiert. Es ergab sich bei 10° eine Genauigkeit von 37,5% und bei 30° eine Genauigkeit von 37,6%. Mit einer Differenz gerade so bei 0,1% können wir diesen Einflussfakotr als irrelevant einstufen, auch während vorheriger Versuche zeigt er keinen erkennbaren Einfluss.
