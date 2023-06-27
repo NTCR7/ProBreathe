@@ -271,7 +271,8 @@ Für das zufällige horizontale Spiegeln beobachten. Mit `horizontal_flip = True
 Hier nun eine Schritt-für-Schritt-Anleitung, um das Modell selbst auszuführen. 
 1. Klicken Sie auf den Button, um die kaggel-Projektseite zu öffnen.
 <p align="center">
-    <a href="</p>https://www.kaggle.com/code/nelecr/probreathe-working?scriptVersionId=135079753&cellId=11"><img src="images/ProBreathe-logo.png" width="150" alt="ProBreathe-Logo"></a>
+    <a href="https://www.kaggle.com/code/nelecr/probreathe-working?scriptVersionId=135079753&cellId=11"><img src="images/ProBreathe-logo.png" width="150" alt="ProBreathe-Logo"></a>
+</p>
 
 
 2. Auf der Seite angelangt, sehen Sie nun das Interface und können beginnen Bilder einzufügen.
