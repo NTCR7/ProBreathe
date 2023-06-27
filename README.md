@@ -269,7 +269,7 @@ Das Ergebnis zeigt, dass die image rotation lieber nicht angewandt werden soll, 
 Hier nun eine Schritt-für-Schritt-Anleitung, um das Modell selbst auszuführen. 
 1. Klicken Sie auf den Button, um die kaggel-Projektseite zu öffnen.
 <p align="center">
-    <a href="test"><img src="images/ProBreathe-logo.png" width="150" alt="ProBreathe-Logo"></a>
+    <a href="https://www.kaggle.com/code/nelecr/probreathe-working"><img src="images/ProBreathe-logo.png" width="150" alt="ProBreathe-Logo"></a>
 </p>
 
 2. Auf der Seite angelangt, sehen Sie nun das Interface und können beginnen Bilder einzufügen.
@@ -284,7 +284,7 @@ Hier nun eine Schritt-für-Schritt-Anleitung, um das Modell selbst auszuführen.
 </p>
 
 4. Probleme mit dem Interface? Führen Sie den Code selbst nochmal aus (Ergebnis kann stark abweichen) oder schauen Sie sich das  <a href="test">YouTube-Video</a> an.
-   Um den Code selbst ausführen zu können, müssen Sie sich ein <a href="https://www.kaggle.com/account/login?phase=startRegisterTab&returnUrl=%2F">Konto erstellen</a> und dann unterm dem <a href="test">Link zum Code</a> auf `Copy & Edit` clicken. Informationen zum Umgang mit kaggle finden Sie <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#2-einf%C3%BChrung--grundeinstellungen-in-kaggle">hier</a>.
+   Um den Code selbst ausführen zu können, müssen Sie sich ein <a href="https://www.kaggle.com/account/login?phase=startRegisterTab&returnUrl=%2F">Konto erstellen</a> und dann unterm dem <a href="https://www.kaggle.com/code/nelecr/probreathe-working">Link zum Code</a> auf `Copy & Edit` clicken. Informationen zum Umgang mit kaggle finden Sie <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#2-einf%C3%BChrung--grundeinstellungen-in-kaggle">hier</a>.
 
 ## 7. Reflexion
 Mit __**ProBreathe**__ sind wir noch einen Schritt weiter gegangen als mit <a href="https://github.com/NTCR7/ProPlant/blob/main/Projektseite.md"> __ProPlant__. </a> Wir haben ein CNN zur Erkennung von Lungenentzündung entwickelt.
