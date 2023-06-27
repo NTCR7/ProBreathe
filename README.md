@@ -269,7 +269,7 @@ Das Ergebnis zeigt, dass die image rotation lieber nicht angewandt werden soll, 
 Hier nun eine Schritt-für-Schritt-Anleitung, um das Modell selbst auszuführen. 
 1. Klicken Sie auf den Button, um die kaggel-Projektseite zu öffnen.
 <p align="center">
-    <a href="https://www.youtube.com/"><img src="images/ProBreathe-logo.png" width="150" alt="ProBreathe-Logo">test</a>
+    <a href="https://www.youtube.com/"><img src="images/ProBreathe-logo.png" width="150" alt="ProBreathe-Logo"></a>
 </p>
 
 2. Auf der Seite angelangt, sehen Sie nun das Interface und können beginnen Bilder einzufügen.
