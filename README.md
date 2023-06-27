@@ -14,7 +14,7 @@
 - <a href="test">**2. Verwendete Programme**</a> 
   - <a href="test">**kaggle**</a> 
   - <a href="test">**GitHub**</a> 
-- <a href="test">**2. Einführung & Grundeinstellungen in kaggle**</a> muss beim Speichern überabeitet werden
+- <a href="test">**2. Einführung & Grundeinstellungen in kaggle**</a> 
 - <a href="test">**3. Verwendete libraries**</a> 
   - <a href="test">**Keras**</a> 
   - <a href="test">**Python os-library**</a> 
@@ -25,7 +25,7 @@
   - <a href="test">**scikit-learn**</a>
   - <a href="test">**tqdm**</a>
   - <a href="test">**Gradio**</a> 
-- <a href="test">**4. Funktionsweise des models & CNN**</a> --> Gegenlesen, Bilder prüfen, Output einfügen
+- <a href="test">**4. Funktionsweise des models & CNN**</a>
   - <a href="test">**Datenvorbereitung**</a>
      - <a href="test">**Aufteilung in Train-, Test- & Val-Daten**</a>
      - <a href="test">**Normalisierung der Daten**</a>
