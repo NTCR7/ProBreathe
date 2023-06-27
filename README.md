@@ -5,7 +5,7 @@
 
 ➜ <a href="https://github.com/NTCR7/ProBreathe/blob/main/Stundenprotokoll.md">**Entwicklungsprozess** (Stundenprotokolle)</a>
 
-➜ <a href="https://youtu.be/4XW7fRgG5RY">**YouTube-Video**</a> 
+➜ <a href="https://youtu.be/4XW7fRgG5RY"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png" width="25" alt="YouTube-Logo">**YouTube-Video**</a> 
 
 ## Inhaltsverzeichnis
 <!--ts-->
@@ -294,8 +294,12 @@ Hier nun eine Schritt-für-Schritt-Anleitung, um das Modell selbst auszuführen.
   <a href="images/download" ><img src="images/download.png" width="150" alt="Download"></a>
 </p>
 
-4. Probleme mit dem Interface? Führen Sie den Code selbst nochmal aus (Ergebnis kann stark abweichen) oder schauen Sie sich das  <a href="https://youtu.be/4XW7fRgG5RY">YouTube-Video</a> an.
-   Um den Code selbst ausführen zu können, müssen Sie sich ein <a href="https://www.kaggle.com/account/login?phase=startRegisterTab&returnUrl=%2F">Konto erstellen</a> und dann unterm dem <a href="https://www.kaggle.com/code/nelecr/probreathe-working?scriptVersionId=135078218&cellId=11">Link zum Code</a> auf `Copy & Edit` clicken. Informationen zum Umgang mit kaggle finden Sie <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#2-einf%C3%BChrung--grundeinstellungen-in-kaggle">hier</a>.
+4. Probleme mit dem Interface? Schauen Sie sich das YouTube-Video an:
+      <p align="center"><a href="https://youtu.be/4XW7fRgG5RY" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png" width="150" alt="YouTube-Logo"></a></p>
+   Weitere Möglichkeit: Führen Sie den Code selbst nochmal aus (Ergebnis kann stark abweichen). Um den Code selbst ausführen zu können, müssen Sie sich ein <a href="https://www.kaggle.com/account/login?phase=startRegisterTab&returnUrl=%2F">Konto erstellen</a> und dann unterm dem <a href="https://www.kaggle.com/code/nelecr/probreathe-working?scriptVersionId=135078218&cellId=11">Link zum Code</a> auf 𝘾𝙤𝙥𝙮 & 𝙀𝙙𝙞𝙩 clicken. Informationen zum Umgang mit kaggle finden Sie <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#2-einf%C3%BChrung--grundeinstellungen-in-kaggle">hier</a>.
+
+
+
 
 ## 7. Reflexion
 Mit __**ProBreathe**__ sind wir noch einen Schritt weiter gegangen als mit <a href="https://github.com/NTCR7/ProPlant/blob/main/Projektseite.md"> __ProPlant__. </a> Wir haben ein CNN zur Erkennung von Lungenentzündung entwickelt.
