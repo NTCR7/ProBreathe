@@ -209,7 +209,7 @@ Die überwachten Metriken `accuracy` und `loss` sollen nach dem Training ausgege
 <img src="images/14.png" width="1200" alt="Code Preview">
 
 Wenn die besten Ergebnisse erzielt wurden, kann das fertige Modell mit `model.save` gespeichert werden und die Datei erhält den Namen "ProBreathe-model.h5".
-Die höchste Genauigkeit stellte bei uns schlussendlich 91.5% dar.
+Die höchste Genauigkeit stellte bei uns schlussendlich 92% dar.
 
 <img src="images/15.png" width="1200" alt="Code Preview">
 
@@ -257,12 +257,11 @@ Hier sind einige Beispiele, wie der Output angezeigt wird und wie die Epochen du
   <img src="images/II.10.png" width="350" alt="10">
 </details>
 
-Die besten Parameter stellten für unser Modell `epochs= `und `batch_size= `dar.
+Die besten Parameter stellten für unser Modell `epochs=10 `und `batch_size=32 `dar.
 
 ### Empirischer Versuch Änderung Data-Augmentation
 Für unser fertiges Modell werden bei der künstlichen Erzeugung neuer Daten während der Datenvorbereitung Änderungen an der `zoom_range, with_shift_range, height_shift_range, horizontal_flip` vorgenommen. Allerdings lässt sich auch das Bild zufällig um 30 Grad drehen, wobei sich die Frage stellt, wie nötig solche spezifischen Verfahren tatsächlich sind. Um dies zu überprüfen, wurden die Bilder versuchsweise um 10° und 30° gedreht. Dafür wurde wegen des Zeitaufwandes, das Modell lediglich mit 2 Epochen und der batch_size=50 trainiert. Es ergab sich bei 10° eine Genauigkeit von 37,5% und bei 30° eine Genauigkeit von 37,6%. Mit einer Differenz gerade so bei 0,1% können wir diesen Einflussfakotr als irrelevant einstufen, auch während vorheriger Versuche zeigt er keinen erkennbaren Einfluss.
-Allerdings stand die Frage im Raum, ob die image roation überhaupt von Nöten ist. Es ließ sich unter Verwendung von `image_rotation` eine Genauigkeit von 54% festhalten, ohne  `image_rotation` lag sie jedoch bei 62,5%.
-Das Ergebnis zeigt, dass die image rotation lieber nicht angewandt werden soll, da sie die Genauigkeit um fast 20% beeinträchtigt. Ähnliches ließ sich auch für das zufällige horizontale Spiegeln beobachten. Mit `horizontal_flip = True` ergab sich eine Genauigkeit von nur 54% und für `false` wiederum eine Genauigkeit von 62,5%. Auch werden wir somit in Zukunft nicht mehr einbinden, da diese Faktoren die Genauigkeit lediglich negativ beeinflussen. Das Modell müsste für die Verwendung von diesen Faktoren weitaus länger trainiert werden, damit die Genauigkeit mind. so hoch ist wie mit ihnen.
+Für das zufällige horizontale Spiegeln beobachten. Mit `horizontal_flip = True` ergab sich eine Genauigkeit von nur 54% und für `false` wiederum eine Genauigkeit von 62,5%. Hier ist zu beachten, dass dies auf das Modell mit 2 Epochen zutrifft. Unser komplexes Modell war auch die umfangreiche data augmentation angewiesen.
 
 ## 6. Das Ergebnis & Anwendung
 
