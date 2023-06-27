@@ -8,42 +8,43 @@
 ➜ <a href="test">**YouTube-Video**</a> 
 
 ## Inhaltsverzeichnis
-- <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#1-einleitung">**1. Einleitung**</a> 
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#das-ist-probreathe">**Das ist ProBreathe**</a> 
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#der-beweggrund">**Der Beweggrund**</a> 
-- <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#2-verwendete-programme">**2. Verwendete Programme**</a> 
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#kaggle">**kaggle**</a> 
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#github">**GitHub**</a> 
-- <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#2-einf%C3%BChrung--grundeinstellungen-in-kaggle">**2. Einführung & Grundeinstellungen in kaggle**</a> 
-- <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#3-verwendete-libraries">**3. Verwendete libraries**</a> 
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#keras-">**Keras**</a> 
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#python-os-library-">**Python os-library**</a> 
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#opencv-">**OpenCV**</a> 
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#metaplotlib-">**Metaplotlib**</a> 
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#seaborn-">**Seaborn**</a> 
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#numpy-">**NumPy**</a>
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#scikit-learn-">**scikit-learn**</a>
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#tqdm-">**tqdm**</a>
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#gradio-">**Gradio**</a> 
-- <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#4-funktionsweise-des-models--cnn">**4. Funktionsweise des models & CNN**</a>
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#datenvorbereitung">**Datenvorbereitung**</a>
-     - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#aufteilung-in-train--test---val-daten">**Aufteilung in Train-, Test- & Val-Daten**</a>
-     - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#normalisierung-der-daten">**Normalisierung der Daten**</a>
-     - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#data-augmentation">**Data Augmentation**</a>
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#modellarchitektur">**Modellarchitektur**</a>
-     - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#verhalten-des-modells-im-training">**Verhalten des Modells im Training**</a>
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#training-des-modells">**Training des Modells**</a>
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#leistung--genauigkeit">**Leistung & Genauigkeit**</a>
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#anwendung">**Anwendung**</a>
-     - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#klassifizierung-neuer-bilder">**Klassifizierung neuer Bilder**</a>
-     - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#gradio-schnittstelle">**Gradio-Schnittstelle**</a>
-- <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#5--projektzusatz--einfluss-verschiedener-parameter">**5. -Projektzusatz- Einfluss verschiedener Parameter**</a>
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#hyperparameteroptimierung-durch-gridsearchcv">**Hyperparameteroptimierung durch GridSearchCV**</a>
-  - <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#empirischer-versuch-%C3%A4nderung-data-augmentation">**Empirischer Versuch Änderung Data-Augmentation**</a>
-- <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#6-das-ergebnis--anwendung">**6. Das Ergebnis & Anwendung**</a>
-- <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#7-reflexion">**7. Reflexion**</a> 
-- <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#8-quellenverzeichnis">**8. Quellenverzeichnis**</a> 
-
+<!--ts-->
+* <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#1-einleitung">**1. Einleitung**</a> 
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#das-ist-probreathe">**Das ist ProBreathe**</a> 
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#der-beweggrund">**Der Beweggrund**</a> 
+* <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#2-verwendete-programme">**2. Verwendete Programme**</a> 
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#kaggle">**kaggle**</a> 
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#github">**GitHub**</a> 
+* <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#2-einf%C3%BChrung--grundeinstellungen-in-kaggle">**2. Einführung & Grundeinstellungen in kaggle**</a> 
+* <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#3-verwendete-libraries">**3. Verwendete libraries**</a> 
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#keras-">**Keras**</a> 
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#python-os-library-">**Python os-library**</a> 
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#opencv-">**OpenCV**</a> 
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#metaplotlib-">**Metaplotlib**</a> 
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#seaborn-">**Seaborn**</a> 
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#numpy-">**NumPy**</a>
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#scikit-learn-">**scikit-learn**</a>
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#tqdm-">**tqdm**</a>
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#gradio-">**Gradio**</a> 
+* <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#4-funktionsweise-des-models--cnn">**4. Funktionsweise des models & CNN**</a>
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#datenvorbereitung">**Datenvorbereitung**</a>
+     * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#aufteilung-in-train--test---val-daten">**Aufteilung in Train-, Test- & Val-Daten**</a>
+     * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#normalisierung-der-daten">**Normalisierung der Daten**</a>
+     * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#data-augmentation">**Data Augmentation**</a>
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#modellarchitektur">**Modellarchitektur**</a>
+     * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#verhalten-des-modells-im-training">**Verhalten des Modells im Training**</a>
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#training-des-modells">**Training des Modells**</a>
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#leistung--genauigkeit">**Leistung & Genauigkeit**</a>
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#anwendung">**Anwendung**</a>
+     * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#klassifizierung-neuer-bilder">**Klassifizierung neuer Bilder**</a>
+     * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#gradio-schnittstelle">**Gradio-Schnittstelle**</a>
+* <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#5--projektzusatz--einfluss-verschiedener-parameter">**5. -Projektzusatz- Einfluss verschiedener Parameter**</a>
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#hyperparameteroptimierung-durch-gridsearchcv">**Hyperparameteroptimierung durch GridSearchCV**</a>
+  * <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#empirischer-versuch-%C3%A4nderung-data-augmentation">**Empirischer Versuch Änderung Data-Augmentation**</a>
+* <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#6-das-ergebnis--anwendung">**6. Das Ergebnis & Anwendung**</a>
+* <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#7-reflexion">**7. Reflexion**</a> 
+* <a href="https://github.com/NTCR7/ProBreathe/blob/main/README.md#8-quellenverzeichnis">**8. Quellenverzeichnis**</a> 
+<!--te-->
 ## 1. Einleitung
 
 ### Das ist ProBreathe
@@ -166,6 +167,10 @@ Um die Anzahl der Fälle im Trainingssatz zu veranschaulichen, wird ein Balkendi
 Zudem sollen die Beispiele der Fälle gezeigt werden. Dazu kann ein Element an i-ter Stelle gewählt werden, hier wird das erste Bild der positiven Liste entnommen und das 5. der negativen `negatives[4]`. Des weiteren werden die Titel gewählt und das normale Beispiel in Graustufen ausgegeben, da so für das menschliche Auge besser zwischen den Merkmalen der Beispiele unterschieden werden kann.
 
 <img src="images/7.png" width="1200" alt="Code Preview">
+
+<p align="center">
+ <img src="images/output-images.png" width="1200" alt="Balkendiagramm und zwei Beispiele"> 
+<p/>
 
 #### Normalisierung der Daten
 Die Division durch 255 ermöglicht die Normalisierung der Bilddaten auf einen Wertebereich zwischen 0 und 1. Nämlich werden Pixelwerte im Regelfall als Ganzzahlen zwischen 0 und 255 dargestellt, wobei 0 für Schwarz steht. 255 stellt widerrum Weiß dar. Die Normalisierung der Bilddaten ermöglicht es, den Wertebereich der Daten zu begrenzen. Dies kann dazu beitragen, die Stabilität und Konvergenz des Modells während des Trainings zu verbessern. Gleichzeitig wird die Liste `x_train` in ein Numpy-Array umgewandelt, was die spätere Handhabung der großen Datenmenge erleichtert.
